@@ -1,0 +1,43 @@
+
+ /*Slider Caption Style*/
+.slideshow .flexslider ul li {
+    position: relative;
+}
+
+/* Slider Caption Style */
+.flex-caption {
+    width: 100%;
+    padding: 2%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px !important;
+    border: none;
+}
+
+.flex-caption-inner.heading {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.flex-caption-inner.description {
+    display: block;
+}
+
+ /* BREAKPOINT 960px */
+@media only screen and (max-width: 960px) {
+    .flex-caption-inner.heading { font-size: 18px; line-height: 24px; }
+}
+/* BREAKPOINT 640px */
+@media only screen and (max-width: 640px) {
+    .flex-caption-inner.heading { font-size: 14px; line-height: 18px; }
+}
+
